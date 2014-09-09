@@ -53,5 +53,9 @@
 	<?php 
 		echo "$test ja veel midagi otsa";
 	?>
+	<?php 
+		$age = "15";
+		echo "Ma olen {$age}-ne aastane";
+	?>
 </body>
 </html>
