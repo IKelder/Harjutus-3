@@ -47,6 +47,11 @@
 		echo $fullName;
 		echo "<br>";
 	?>
-
+	<?php 
+		$test = "Mingi tekst";
+	?>
+	<?php 
+		echo "$test ja veel midagi otsa";
+	?>
 </body>
 </html>
