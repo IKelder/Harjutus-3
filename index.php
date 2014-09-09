@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Harjutus 3</title>
+	<meta charset="UTF-8">
 </head>
 <body>
 	<h1>Muutujad</h1>
@@ -33,7 +34,7 @@
 		$student5 = Frank;
 		$firstName = Ingrid;
 		$lastName = Kelder;
-		$fullName = "$lastName $lastName";
+		$fullName = "$firstName $lastName";
 	?>
 	<ul>
 		<?php 
@@ -56,6 +57,38 @@
 	<?php 
 		$age = "15";
 		echo "Ma olen {$age}-ne aastane";
+		echo "<br>";
 	?>
+	<?php
+		$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$lower = strtolower($source);
+		echo "<p>{$lower}</p>";
+	?>
+	<?php
+		$source2 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$upper = strtoupper($source2);
+		echo "<p>{$upper}</p>";
+	?>
+	<?php
+		$source3 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$firstupper = ucfirst($source3);
+		echo "<p>{$firstupper}</p>";
+	?>
+	<?php
+		$source3 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$firstupper = ucfirst($source3);
+		echo "<p>{$firstupper}</p>";
+	?>
+	<?php
+		$source4 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$everyupper = ucwords($source4);
+		echo "<p>{$everyupper}</p>";
+	?>
+	<?php
+		$source5 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$textlenght = strlen($source5);
+		echo "<p>{$textlenght}</p>";
+	?>
+	<?php echo "A" . trim(" B C D E") . "F"; ?>
 </body>
 </html>
