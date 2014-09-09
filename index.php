@@ -25,6 +25,20 @@
 		$number2 = 26;
 		echo "2426";
 	?>
-
+	<h2>Nimekirja valjastamine muutujate ja stringide abil</h2>
+	<?php 
+		$student1 = Anneli;
+		$student3 = Eve;
+		$student4 = Mihkel;
+		$student5 = Frank;
+	?>
+	<ul>
+		<?php 
+			echo "<li>" . $student1 . "</li>
+			<li>" . $student3 . "</li>
+			<li>" . $student4 . "</li>
+			<li>" . $student5 . "</li>"
+		?>
+	</ul>
 </body>
 </html>
